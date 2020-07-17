@@ -1,0 +1,23 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ASSIGNMENT 1 DAY 3</title>
+</head>
+<h1>ASSIGNMENT 1 DAY 3</h1>
+<body>
+  <script>
+    const number = prompt("ENTER THE NUMBER");
+    isOddOrEven(number);
+    function isOddOrEven(number) {
+      if (number % 2 == 0) {
+        console.log(`The number entered is ${number} and Number is Even`);
+      }
+      else {
+        console.log(`The number entered is ${number} and Number is Odd`);
+      }
+    }
+  </script>
+</body>
+</html>
